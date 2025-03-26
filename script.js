@@ -9,7 +9,7 @@ async function sendMessage() {
     document.getElementById("user-input").value = "";
 
     try {
-        const response = await fetch("https://chatgpt.com/g/g-67e44f650b3c81919b27d712d64d4a4e-sinapbot", {
+        const response = await fetch("https://api.openai.com/v1/chat/completions", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
