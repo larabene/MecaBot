@@ -1,4 +1,4 @@
-const API_KEY = "https://chatgpt.com/g/g-67e44f650b3c81919b27d712d64d4a4e-sinapbot"; // Substitua pela sua chave da API
+const API_KEY = "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"; // Substitua pela sua chave da API
 
 async function sendMessage() {
     const userInput = document.getElementById("user-input").value;
